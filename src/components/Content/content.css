@@ -1,0 +1,70 @@
+.item-show{
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  min-width: 100vw;
+  margin: auto;
+  z-index: 2;
+}
+#image{
+  min-width: 60vw;
+  height: 500px;
+  box-shadow: 10px 10px 30px 10px gray;
+  border-radius: 20px;
+  border: 2px solid rgb(119, 119, 119);
+  animation-name: move;
+  animation-timing-function:ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0%{
+    margin-bottom: 35px;
+  }
+  100%{
+    margin-top: 35px;
+  }
+}
+
+.footer{
+  background-color: black;
+  color: aliceblue;
+  min-width: 100vw;
+  height: fit-content;
+  margin: 10px 0px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.founder-names{
+  padding: 10px 30px;
+  font-weight: bolder;
+}
+.contacts{
+  color: aqua;
+}
+.founder-names h3{
+  font-weight: bolder;
+  text-align: center;
+  font-size: xx-large;
+}
+.aboutInto{
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 500px;
+}
+.footer a{
+  color: rgb(102, 255, 194);
+  text-decoration: none;
+}
+#btn-next{
+  height: fit-content ;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 247, 234);
+}

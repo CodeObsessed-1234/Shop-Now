@@ -1,0 +1,9 @@
+
+.items{
+  display: flex;
+  flex-flow: wrap;
+  justify-content:center;
+}
+.title{
+  margin: 10px 10px;
+}
